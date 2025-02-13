@@ -14,3 +14,16 @@ source faiss-env/bin/activate
 ********************************
 pip install -r requirements.txt
 ********************************
+
+
+********************************
+Set branch
+********************************
+
+
+ git branch --set-upstream-to=<remote>/<branch> fix
+git branch --set-upstream-to=<remote>/<branch> fix
+
+
+
+git branch --set-upstream origin FEAT/fix
