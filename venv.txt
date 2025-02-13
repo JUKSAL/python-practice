@@ -4,11 +4,11 @@
 
 
 # Create a virtual environment
-python3 -m venv faiss-env
+python3 -m venv python-test
 
 # Activate the environment
 # On Linux/macOS:
-source faiss-env/bin/activate
+source python-test/bin/activate
 
 
 ********************************
