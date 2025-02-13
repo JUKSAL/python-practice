@@ -1,0 +1,12 @@
+*****************
+* Git-komentoja *
+*****************
+git pull    
+git checkout -b      
+git push --set-upstream origin FEAT/MU-1408
+git status   
+git add .   
+git commit -m "moved pipeline files"
+git push
+
+
