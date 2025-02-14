@@ -1,10 +1,7 @@
-import tqdm
+# pylint: disable=missing-module-docstring
 from tqdm import tqdm
 
-
-from tqdm import tqdm
-
-def numberOfWays(startPos: int, endPos: int, k: int) -> int:
+def numberOfWays(startPos: int,endPos: int, k: int) -> int:
     """
     Solving Leetcode Problem:
     https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/
@@ -25,7 +22,7 @@ def numberOfWays(startPos: int, endPos: int, k: int) -> int:
             return 1 if pos == endPos else 0
         if (pos, steps) in memo:
             return memo[(pos, steps)]
-        
+      
         # Move left or right
         memo[(pos, steps)] = dfs(pos - 1, steps - 1) + dfs(pos + 1, steps - 1)
         return memo[(pos, steps)]
