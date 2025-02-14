@@ -4,13 +4,26 @@
 
 
 # Create a virtual environment
-python3 -m venv faiss-env
+python3 -m venv python-test
 
 # Activate the environment
 # On Linux/macOS:
-source faiss-env/bin/activate
+source python-test/bin/activate
 
 
+********************************
+Install libraries
 ********************************
 pip install -r requirements.txt
+
 ********************************
+Set branch
+********************************
+
+
+ git branch --set-upstream-to=<remote>/<branch> fix
+git branch --set-upstream-to=<remote>/<branch> fix
+
+
+
+git branch --set-upstream origin FEAT/fix
